@@ -3,10 +3,13 @@
 
 二、实验步骤
   1 配置git 上传到GitHub
-     1.1.创建git文件并修改git文件中的config
+     
 ​      git init
      config添加  [user] 下面是创建连接 和选择分支（后面命令运行自动添加）
+
+     
      github的用户名和邮箱情况
+     
      
   <img width="1161" height="125" alt="image" src="https://github.com/user-attachments/assets/2831e86f-7df5-4143-997d-4d93fc88432b" />
 
