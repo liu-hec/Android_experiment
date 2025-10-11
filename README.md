@@ -6,4 +6,5 @@
 64.233.177.101  groups.google.com
 199.232.69.194  github.global.ssl.fastly.net
 172.217.0.10    ajax.googleapis.com
+<img width="527" height="401" alt="image" src="https://github.com/user-attachments/assets/2e5fce2b-d617-43f4-81ed-2e3a3cf7ebb2" />
 
