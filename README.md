@@ -1,9 +1,12 @@
 一、实验目标
+
   在Android Studio 上运行第一个程序 hello world !,并上传到自己的GitHub账号上。
 
 二、实验步骤
+
   1 配置git 上传到GitHub
-     1.1.创建git文件并修改git文件中的config
+  
+  1.1.创建git文件并修改git文件中的config
 ​      git init
      config添加  [user] 下面是创建连接 和选择分支（后面命令运行自动添加）
      github的用户名和邮箱情况
@@ -25,6 +28,7 @@
 
 
    1.3.更换分支
+   
      git branch -a     查看分支情况
      git fetch   拉取远端仓库的分支        寻找new brand
      git checkout brandName      切换分支
