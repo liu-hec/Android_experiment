@@ -4,57 +4,37 @@
 二、实验步骤
   1 配置git 上传到GitHub
      1.1.创建git文件并修改git文件中的config
-
 ​      git init
-
      config添加  [user] 下面是创建连接 和选择分支（后面命令运行自动添加）
-
      github的用户名和邮箱情况
-
-    ![image-20251011154132676](image-20251011154132676.png)
-
-
+  <img width="1161" height="125" alt="image" src="https://github.com/user-attachments/assets/2831e86f-7df5-4143-997d-4d93fc88432b" />
 
     1.2. 链接远端仓库
-
       git remote add origin [http地址】
+<img width="1009" height="697" alt="image" src="https://github.com/user-attachments/assets/b7f2b8be-aa6e-44e2-b066-a7e924943048" />
 
-    ![image-20251011153113996](image-20251011153113996.png)
+<img width="1225" height="69" alt="image" src="https://github.com/user-attachments/assets/6e2e4606-1a32-4d60-94d0-5c18f173f93a" />
 
     这里的名字竟然是`master`，我们还记得一开始我们创建的仓库里的唯一的分支名就是`main`，所以我们应该把文件提交到主分支上。或者需要更换分支（push到不存在的分支会自动创建分支的）
 
 
 
    1.3.更换分支
-
      git branch -a     查看分支情况
-
      git fetch   拉取远端仓库的分支        寻找new brand
- 
      git checkout brandName      切换分支
-
       这里往往出现无法连接GitHub 的情况 ，即ping github.com失败的情况。 可以在系统host中添加GitHub 的ip地址，直接解析域名。
 
 
 
     1.4.上传到本地仓库
- 
       git add .  将文件夹内的所有文件添加到缓冲区       还是 `git add + 此文件夹下的具体文件名` 只加入指定文件。
-
       git status     出现new file表示上传成功
 
-
-
       提交到本地仓库
-
       git commit -m "这是你的提交说明"           
 
-
-
-
-
      1.5.push到远端仓库
-
       git push -u origin brandName(自己看要push到那个分支)
 
 
