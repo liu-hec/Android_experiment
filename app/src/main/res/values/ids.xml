@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvTitle" type="id" />
+    <item name="tvInput" type="id" />
+    <item name="tvDisplay" type="id" />
+    <item name="btn7" type="id" />
+    <item name="btn8" type="id" />
+    <item name="btn9" type="id" />
+    <item name="btnDivide" type="id" />
+    <item name="btn4" type="id" />
+    <item name="btn5" type="id" />
+    <item name="btn6" type="id" />
+    <item name="btnMultiply" type="id" />
+    <item name="btn1" type="id" />
+    <item name="btn2" type="id" />
+    <item name="btn3" type="id" />
+    <item name="btnAdd" type="id" />
+    <item name="btnDot" type="id" />
+    <item name="btn0" type="id" />
+    <item name="btnEqual" type="id" />
+    <item name="btnSubtract" type="id" />
+</resources>

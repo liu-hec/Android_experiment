@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!--  标题行 -->
+    <TableRow>
+        <TextView
+            android:layout_column="0"
+            android:text="Hello TableLayout"
+            android:textSize="18sp"
+            android:padding="5dp" />
+    </TableRow>
+
+    <!-- 分割线（跨2列） -->
+    <View
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_span="2" />
+
+    <!--  Open行 -->
+    <TableRow>
+        <TextView
+            android:text="Open..."
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:padding="5dp"
+            android:text="Ctrl-O" />
+    </TableRow>
+
+    <!-- Save行 -->
+    <TableRow>
+        <TextView
+            android:text="Save..."
+            android:layout_marginLeft="15dp"
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctrl-S"
+            android:layout_marginLeft="200dp"
+            android:padding="5dp" />
+    </TableRow>
+
+    <!-- Save As行 -->
+    <TableRow>
+        <TextView
+            android:text="Save As..."
+            android:layout_marginLeft="15dp"
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctrl-Shift-S"
+            android:layout_marginLeft="180dp"
+            android:padding="5dp" />
+    </TableRow>
+
+    <!-- 分割线 -->
+    <View
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_span="2" />
+
+    <!-- 5. Import... 行（带X） -->
+    <TableRow>
+        <TextView
+            android:text="X Import..."
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctrl-I"
+            android:layout_marginLeft="200dp"
+            android:padding="5dp" />
+    </TableRow>
+
+    <!-- Export行 -->
+    <TableRow>
+        <TextView
+            android:text="X Export..."
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctrl-E"
+            android:layout_marginLeft="200dp"
+            android:padding="5dp" />
+    </TableRow>
+
+    <!-- 分割线 -->
+    <View
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_span="2" />
+
+    <!-- 7. Quit 行 -->
+    <TableRow>
+        <TextView
+            android:text="Quit"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp" />
+        <TextView
+            android:padding="5dp" /> <!-- 右侧无内容，留空 -->
+    </TableRow>
+
+</TableLayout>
