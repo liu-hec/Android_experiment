@@ -24,6 +24,7 @@ android:layout_width="xxdp"
 android:layout_height="xxdp"
 ```
 
+<img width="598" height="691" alt="image" src="https://github.com/user-attachments/assets/397ca2d4-db3a-4fdf-9b6a-70c1e92de6df" />
 
 
 
@@ -74,6 +75,7 @@ android:layout_height="xxdp"
 
 ​       对齐：android:layout_marginLeft="200dp"  设置左边距  使得快捷键往右侧靠拢。
 
+<img width="590" height="859" alt="image" src="https://github.com/user-attachments/assets/9145d4ca-28df-439c-a5c2-8049fc88eb85" />
 
 
 ​      
@@ -158,6 +160,7 @@ android:layout_height="xxdp"
 ```
 
 
+<img width="802" height="1295" alt="image" src="https://github.com/user-attachments/assets/89d0d0b2-a61e-4e0a-bf58-ac546f69759d" />
 
 
 
@@ -228,6 +231,7 @@ android:layout_height="xxdp"
 
 
 
+<img width="772" height="1239" alt="image" src="https://github.com/user-attachments/assets/5ad8d208-392c-4702-859c-58e442d084f4" />
 
 
 
