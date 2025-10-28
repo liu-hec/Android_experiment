@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyListViewTest" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyListViewTest" parent="Base.Theme.MyListViewTest" />
+</resources>
+
+<!-- 菜单需要ActionBar才能显示 theme是来统一控制应用视觉风格的-->

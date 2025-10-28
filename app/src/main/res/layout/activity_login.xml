@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/login"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/white"> <!-- 白色背景 -->
+
+    <!-- 标题栏 --><!-- 深橙色背景 -->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="@string/alertdialog_app"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- 用户名输入框（原生EditText） -->
+    <EditText
+        android:id="@+id/et_dialog_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="username"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <!-- 密码输入框（原生EditText） -->
+    <EditText
+        android:id="@+id/et_dialog_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <!-- 按钮区域（水平排列） -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:spacing="15dp">
+
+        <!-- 取消按钮 -->
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#E0E0E0"
+            android:text="取消"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- 登录按钮 -->
+        <Button
+            android:id="@+id/btn_sign_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF5722"
+            android:text="登录"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

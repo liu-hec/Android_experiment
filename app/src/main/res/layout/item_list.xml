@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <!-- 图标 -->
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_android_icon" />
+
+    <!-- 文字内容 -->
+    <TextView
+        android:id="@+id/context_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:gravity="center_vertical"
+        android:text="nihaode "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
