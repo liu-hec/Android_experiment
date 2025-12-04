@@ -2,7 +2,8 @@
 
 # 1.SimpleAdapter实验
 
-![image-20251021152122362](../../AppData/Roaming/Typora/typora-user-images/image-20251021152122362.png)
+<img width="1410" height="706" alt="image" src="https://github.com/user-attachments/assets/8328b252-40a4-4438-b2f0-7322bb8814a3" />
+
 
 使用SimpleAdapter实现上述效果。
 
@@ -90,7 +91,8 @@ List<Map<String,Object>> list=new ArrayList<>();
 
 在onCreate方法内：加入适配器 
 
-![image-20251021153426998](../../AppData/Roaming/Typora/typora-user-images/image-20251021153426998.png)
+<img width="1130" height="522" alt="image" src="https://github.com/user-attachments/assets/315ea4bd-8686-440b-ba0e-7d03c30c50ba" />
+
 
 ```
 //连接ListView
@@ -215,11 +217,12 @@ Android 13+发送通知需要许可
 
 运行测试
 
-<img src="../../AppData/Roaming/Typora/typora-user-images/image-20251021162007988.png" alt="image-20251021162007988" style="zoom:50%;" />
+<img width="479" height="689" alt="image" src="https://github.com/user-attachments/assets/340c3b13-04cc-4618-952f-bb9229ea36b5" />
+
 
 查看通知：
 
-![image-20251021162045174](../../AppData/Roaming/Typora/typora-user-images/image-20251021162045174.png)
+<img width="666" height="562" alt="image" src="https://github.com/user-attachments/assets/e4cbd307-4442-4e44-926c-0b0b674f293d" />
 
 
 
@@ -257,7 +260,8 @@ AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
 基础的情况 使用线性布局 布局标题，两个输入框和按钮行，按钮行继续采用线性布局-水平布局的情况布置按钮的分布。
 
-![image-20251022163537938](../../AppData/Roaming/Typora/typora-user-images/image-20251022163537938.png)
+<img width="1416" height="1037" alt="image" src="https://github.com/user-attachments/assets/7b590c02-c64c-4e93-8b1e-1da4682bbffd" />
+
 
 
 
@@ -295,7 +299,8 @@ alertDialog.show();
 
 运行结果
 
-<img src="../../AppData/Roaming/Typora/typora-user-images/image-20251022163915297.png" alt="image-20251022163915297" style="zoom:50%;" />
+<img width="353" height="836" alt="image" src="https://github.com/user-attachments/assets/806a3c02-499d-4115-b885-c411458cb36e" />
+
 
 
 
@@ -368,7 +373,7 @@ alertDialog.show();
 
 预览效果：
 
-<img src="../../AppData/Roaming/Typora/typora-user-images/image-20251028142436262.png" alt="image-20251028142436262" style="zoom:50%;" />
+<img width="446" height="642" alt="image" src="https://github.com/user-attachments/assets/fd4224ee-ed5f-418a-b97e-41745a2c68b0" />
 
 
 
@@ -412,7 +417,8 @@ public boolean onOptionsItemSelected(@NonNull MenuItem item) {//非空
 
 ## 4.测试  MenuActivity
 
-​	![image-20251028143253507](../../AppData/Roaming/Typora/typora-user-images/image-20251028143253507.png)
+<img width="1394" height="629" alt="image" src="https://github.com/user-attachments/assets/9fd395ce-baca-4267-8de2-a5ca4a4aded9" />
+
 
 
 
@@ -547,7 +553,7 @@ onActionItemClicked`：点击操作栏中的菜单项时调用（如点击 “�
 
 ## 3.测试 ContextMenuActivity
 
-![image-20251028151802085](../../AppData/Roaming/Typora/typora-user-images/image-20251028151802085.png)
+<img width="1412" height="479" alt="image" src="https://github.com/user-attachments/assets/9453a37a-1ad5-4374-adb3-fee4537413c7" />
 
 
 
